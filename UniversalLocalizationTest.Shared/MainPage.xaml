@@ -18,8 +18,8 @@
     <Grid Style="{StaticResource MainGridStyle}">
 
         <StackPanel Orientation="Vertical" VerticalAlignment="Center">
-            <TextBlock Text="{StaticResource AppTitle}" FontSize="72" Margin="20"/>
-            <TextBlock x:Uid="LocalizedTextBlock" Text="design time text" FontSize="36" Margin="20"/>
+            <TextBlock Text="{StaticResource AppTitle}" FontSize="72" Margin="20" TextWrapping="Wrap"/>
+            <TextBlock x:Uid="LocalizedTextBlock" Text="design time text" FontSize="36" Margin="20" TextWrapping="Wrap"/>
             <Button x:Uid="LocalizedButton" Content="design time content" Margin="20"
 				Click="ButtonBase1_OnClick"/>
 
