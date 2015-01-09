@@ -17,9 +17,7 @@
   </Prerequisites>
 
   <Resources>
-    <!--<Resource Language="x-generate"/>-->
-    <Resource Language="en"/>
-    <Resource Language="sv"/>
+    <Resource Language="x-generate"/>
   </Resources>
 
   <Applications>

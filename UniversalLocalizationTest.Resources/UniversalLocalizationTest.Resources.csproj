@@ -8,7 +8,7 @@
     <ProjectGuid>{B23F9FEF-A404-42A5-85C7-722A2486E3B2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UniversalLocalizationTest.Resources</RootNamespace>
+    <RootNamespace>UniversalLocalizationTest</RootNamespace>
     <AssemblyName>UniversalLocalizationTest.Resources</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
@@ -35,7 +35,9 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <PRIResource Include="strings\en\strings.resw" />
+    <PRIResource Include="strings\en\resources.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
   </ItemGroup>
   <ItemGroup>
     <TargetPlatform Include="WindowsPhoneApp, Version=8.1" />
@@ -45,7 +47,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <PRIResource Include="strings\sv\strings.resw" />
+    <PRIResource Include="strings\sv\resources.resw" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

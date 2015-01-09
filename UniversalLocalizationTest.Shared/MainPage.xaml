@@ -9,7 +9,7 @@
 
     <StackPanel Orientation="Vertical">
         <TextBlock x:Uid="LocalizedTextBlock" Text="design time text" FontSize="30" Margin="20"/>
-        <Button Content="design time content" Margin="20"/>
+        <Button x:Uid="LocalizedButton" Content="design time content" Margin="20"/>
         
     </StackPanel>
 </Page>

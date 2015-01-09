@@ -98,6 +98,12 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <PRIResource Include="..\..\UniversalLocalizationTest.Resources\strings\en\resources.resw">
+      <Link>Strings\en\resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="..\..\UniversalLocalizationTest.Resources\strings\sv\resources.resw">
+      <Link>Strings\sv\resources.resw</Link>
+    </PRIResource>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Assets\Logo.scale-240.png" />

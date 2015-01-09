@@ -113,11 +113,11 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <PRIResource Include="..\..\UniversalLocalizationTest.Resources\strings\en\strings.resw">
-      <Link>strings\en\strings.resw</Link>
+    <PRIResource Include="..\..\UniversalLocalizationTest.Resources\strings\en\resources.resw">
+      <Link>Strings\en\resources.resw</Link>
     </PRIResource>
-    <PRIResource Include="..\..\UniversalLocalizationTest.Resources\strings\sv\strings.resw">
-      <Link>strings\sv\strings.resw</Link>
+    <PRIResource Include="..\..\UniversalLocalizationTest.Resources\strings\sv\resources.resw">
+      <Link>Strings\sv\resources.resw</Link>
     </PRIResource>
     <None Include="UniversalLocalizationTest.App1.Windows_TemporaryKey.pfx" />
   </ItemGroup>
