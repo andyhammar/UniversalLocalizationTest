@@ -103,6 +103,9 @@
     <Prefer32Bit>true</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\..\UniversalLocalizationTest.Resources\LocalizedStrings.cs">
+      <Link>LocalizedStrings.cs</Link>
+    </Compile>
     <Compile Include="..\..\UniversalLocalizationTest.Shared\MainPage.xaml.cs">
       <Link>MainPage.xaml.cs</Link>
       <DependentUpon>MainPage.xaml</DependentUpon>

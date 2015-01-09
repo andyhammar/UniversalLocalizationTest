@@ -8,7 +8,7 @@
     <ProjectGuid>{B23F9FEF-A404-42A5-85C7-722A2486E3B2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UniversalLocalizationTest</RootNamespace>
+    <RootNamespace>UniversalLocalizationTest.Resources</RootNamespace>
     <AssemblyName>UniversalLocalizationTest.Resources</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
@@ -44,6 +44,7 @@
     <TargetPlatform Include="Windows, Version=8.1" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LocalizedStrings.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -7,9 +7,10 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <StackPanel Orientation="Vertical">
+    <StackPanel Orientation="Vertical" VerticalAlignment="Center">
         <TextBlock x:Uid="LocalizedTextBlock" Text="design time text" FontSize="30" Margin="20"/>
-        <Button x:Uid="LocalizedButton" Content="design time content" Margin="20"/>
+        <Button x:Uid="LocalizedButton" Content="design time content" Margin="20"
+                Click="ButtonBase_OnClick"/>
         
     </StackPanel>
 </Page>
