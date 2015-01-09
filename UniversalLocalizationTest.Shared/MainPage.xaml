@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="UniversalLocalizationTest.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <StackPanel Orientation="Vertical">
+        <TextBlock Text="design time text" FontSize="30" Margin="20"/>
+        <Button Content="design time content" Margin="20"/>
+        
+    </StackPanel>
+</Page>
