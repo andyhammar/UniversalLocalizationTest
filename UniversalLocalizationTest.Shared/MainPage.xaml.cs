@@ -43,7 +43,7 @@ namespace UniversalLocalizationTest
 
         private async void ButtonBase2_OnClick(object sender, RoutedEventArgs e)
         {
-            var loader = new ResourceLoader("/UniversalLocalizationTest.Resources/errors");
+            var loader = ResourceLoader.GetForCurrentView("/UniversalLocalizationTest.Resources/errors");
             await new MessageDialog(loader.GetString("NonLinkedMessage")).ShowAsync();
         }
     }
