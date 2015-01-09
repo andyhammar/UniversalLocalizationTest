@@ -113,6 +113,10 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
+    <PRIResource Include="..\..\UniversalLocalizationTest.Resources\strings\en\resources.resw">
+      <Link>strings\en\resources.resw</Link>
+    </PRIResource>
+    <PRIResource Include="strings\sv\resources.resw" />
     <None Include="UniversalLocalizationTest.App1.Windows_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
@@ -128,6 +132,13 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\UniversalLocalizationTest.Resources\UniversalLocalizationTest.Resources.csproj">
+      <Project>{b23f9fef-a404-42a5-85c7-722a2486e3b2}</Project>
+      <Name>UniversalLocalizationTest.Resources</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '12.0' ">
     <VisualStudioVersion>12.0</VisualStudioVersion>
   </PropertyGroup>

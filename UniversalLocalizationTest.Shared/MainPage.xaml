@@ -8,7 +8,7 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <StackPanel Orientation="Vertical">
-        <TextBlock Text="design time text" FontSize="30" Margin="20"/>
+        <TextBlock x:Uid="LocalizedTextBlock" Text="design time text" FontSize="30" Margin="20"/>
         <Button Content="design time content" Margin="20"/>
         
     </StackPanel>
