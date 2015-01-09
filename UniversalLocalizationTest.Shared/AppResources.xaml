@@ -1,0 +1,13 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    
+    <!-- //Andreas Hammar 2015-01-09 14:10: these properties are here just to make this project build, maybe unnecessary... -->
+    <Style x:Key="MainGridStyle" TargetType="Grid">
+        <Setter Property="Background" Value="DeepSkyBlue"></Setter>
+    </Style>
+    <x:String x:Key="AppTitle">
+        App title
+    </x:String>
+
+</ResourceDictionary>

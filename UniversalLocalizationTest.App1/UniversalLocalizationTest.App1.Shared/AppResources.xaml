@@ -1,0 +1,12 @@
+﻿<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UniversalLocalizationTest.App1">
+    <Style x:Key="MainGridStyle" TargetType="Grid">
+        <Setter Property="Background" Value="DeepSkyBlue"></Setter>
+    </Style>
+    <x:String x:Key="AppTitle">
+        App 1 (deepskyblue)
+    </x:String>
+
+</ResourceDictionary>
