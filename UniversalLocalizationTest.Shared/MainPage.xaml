@@ -19,9 +19,14 @@
 
         <StackPanel Orientation="Vertical" VerticalAlignment="Center">
             <TextBlock Text="{StaticResource AppTitle}" FontSize="72" Margin="20" TextWrapping="Wrap"/>
-            <TextBlock x:Uid="LocalizedTextBlock" Text="design time text" FontSize="36" Margin="20" TextWrapping="Wrap"/>
-            <Button x:Uid="LocalizedButton" Content="design time content" Margin="20"
-				Click="ButtonBase1_OnClick"/>
+
+            <TextBlock x:Uid="LocalizedTextBlock" Text="design time text" 
+                       FontSize="36" Margin="20" TextWrapping="Wrap"/>
+            
+            <Button 
+                x:Uid="LocalizedButton" 
+                Content="design time content" Margin="20"
+				Click="ButtonBase1_OnClick" />
 
             <Button x:Uid="/UniversalLocalizationTest.Resources/errors/NonLinkedButton" Content="design time non-linked content" Margin="20"
 				Click="ButtonBase2_OnClick"/>
