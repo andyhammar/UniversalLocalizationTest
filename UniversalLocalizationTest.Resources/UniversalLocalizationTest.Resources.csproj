@@ -50,6 +50,16 @@
   <ItemGroup>
     <PRIResource Include="strings\sv\resources.resw" />
   </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="strings\sv\errors.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="strings\en\errors.resw">
+      <SubType>Designer</SubType>
+    </PRIResource>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

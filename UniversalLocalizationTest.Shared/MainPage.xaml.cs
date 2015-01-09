@@ -1,4 +1,5 @@
 ﻿using System;
+using Windows.ApplicationModel.Resources;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
@@ -37,9 +38,15 @@ namespace UniversalLocalizationTest
             // this event is handled for you.
         }
 
-        private async void ButtonBase_OnClick(object sender, RoutedEventArgs e)
+        private async void ButtonBase1_OnClick(object sender, RoutedEventArgs e)
         {
             await new MessageDialog(LocalizedStrings.Get("ClickMessageText")).ShowAsync();
+        }
+
+        private async void ButtonBase2_OnClick(object sender, RoutedEventArgs e)
+        {
+            var loader = new ResourceLoader("/UniversalLocalizationTest.Resources/errors");
+            await new MessageDialog(loader.GetString("NonLinkedMessage")).ShowAsync();
         }
     }
 }
